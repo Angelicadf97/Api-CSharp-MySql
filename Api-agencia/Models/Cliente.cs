@@ -6,6 +6,8 @@ namespace Api_agencia.Models
     [Table("cliente")]
     public class Cliente
     {
+        private LocalDataStoreSlot nasc;
+
         [Key]
         public long Id { get; set; }
 
